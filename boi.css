@@ -1,0 +1,128 @@
+body, html{
+    height:100%;
+    margin:0px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:2%;
+    
+
+}
+img{
+    border-radius: 50px;
+}
+.signingroup{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    padding:2%;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#worst-part-of-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px;
+
+}
+
+.name{
+    line-height: 30px;
+
+}
+#forgot a{
+    text-decoration: none;
+    color: rgb(90, 179, 209);
+    
+}
+
+.help {
+    color: rgb(90, 179, 209);
+}
+
+.button1 {
+    line-height:30px;
+    background-color: rgb(250, 194, 89);
+    border-color: lightgrey;
+    
+    border-radius: 1px;
+}
+.button2{
+    line-height:30px;
+    border-radius: 2px;
+    background-color:lightgrey;
+    border-color: lightgrey;
+    border: 1%;
+    
+}
+
+
+.new{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+h4 {
+    font: 13px sans-serif;
+    margin-top: 30px;
+    text-align:center;
+    
+}
+h4.background{
+    margin: 2%;
+    color: rgb(151, 151, 151)
+}
+div.new{
+    padding:0px;
+}
+
+h4 span {
+    position:relative;
+
+
+}
+h4 span:before, h4 span:after {
+    border-top: 2px solid lightgrey;
+    content:"";
+    position: absolute;
+    top: 7px;
+    right: 11em;
+    bottom: 0;
+    width: 164%;
+    text-size-adjust: 50px;
+}
+h4 span:after {
+    position: absolute;
+    top: 7px;
+    left:11em;
+    right:0;
+    bottom: 0;
+    width: 164%
+}
+
+.foot{
+    padding-left: 37.5%;
+    width:25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.foot a{
+    text-decoration: none;
+    color: rgb(61, 157, 189);
+}
